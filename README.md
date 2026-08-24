@@ -76,7 +76,7 @@ pip install torchinfo opencv-python pandas scikit-learn matplotlib tqdm
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/landcover-classification-unet.git
+   git clone https://github.com/kvsgvinayak11/landcover-classification-unet.git
    cd landcover-classification-unet
    ```
 2. Install the dependencies listed above.
@@ -105,8 +105,6 @@ The notebook will:
 ```
 .
 ├── landcover-classification-unet.ipynb   # Main notebook (data, model, training, evaluation)
-├── checkpoints/                          # Saved model checkpoints (generated during training)
-├── lightning_logs/                       # CSV training/validation/test logs (generated during training)
 └── README.md
 ```
 
@@ -114,9 +112,6 @@ The notebook will:
 
 After training, the notebook logs per-epoch metrics (Loss, IoU, Accuracy, Precision, Recall, F1 score) for train/val/test splits and plots them for visual comparison.
 
-## License
-
-Add a license of your choice (e.g. MIT) if you intend to make this repository public.
 
 ## Acknowledgements
 
